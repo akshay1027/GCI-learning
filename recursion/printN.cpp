@@ -7,7 +7,7 @@ using namespace std;
        {
            cout<<n<<" "
                <<"--";
-           return ;
+               return ;
        }
        cout<<"#";
        printN(n-1);
@@ -26,3 +26,4 @@ int main()
 }
 
 // ####1 --*2 *3 *4 *5
+// where the base condition is stopping "return ;" there!!
